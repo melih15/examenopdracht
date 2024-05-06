@@ -1,0 +1,334 @@
+a {
+  text-decoration: none !important;
+  color: #19398A !important;
+}
+
+h1 {
+  font-family: sans-serif;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  color: #19398A !important;
+}
+  
+/*index*/
+.loginImg {
+  margin: auto;
+  margin-top: 7%;
+  width: 40%;
+  display: flex;
+}
+
+/*leveranciers*/
+#js-suppliers-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+}
+
+#js-suppliers-container div{
+  margin: 3%;
+  width: 19%;
+  min-width: 220px;
+  height: 5%;
+  border: #F9971D solid thin;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+}
+
+#js-suppliers-container div h3 {
+  color: #19398A;
+}
+
+.supplier:hover {
+  background-color: #F9971D;
+  cursor: pointer;
+}
+
+/*beheer*/
+#users-table td {
+  border-bottom: #F9971D thin solid;
+}
+
+#users-table thead {
+  border-bottom: #F9971D solid;
+}
+
+.deleteUser {
+  min-width: 48px;
+}
+
+.editUser {
+  min-width: 48px;
+}
+
+.deleteUser i{
+  margin: 0px auto;
+}
+
+.editUser i{
+  margin: 0px auto;
+}
+
+.server-email{
+  position: absolute;
+  right: 72px;
+  top: 10px;
+  height: 54px;
+  width: 54px;
+}
+
+.server-email i{
+  height: 32px;
+  font-size: 32px;
+}
+
+/*card*/
+.card-container .card {
+  border: solid #F9971D thin;
+  color: #19398A;
+}
+
+.card-container .card-header {
+  border-bottom: solid #F9971D thin;
+  color: #19398A;
+  font-weight: bold;
+}
+
+.card-header h1 {
+  color: #19398A;
+  font-weight: bold;
+}
+
+.card-container .row {
+  width: 100%;
+}
+
+/*buttons*/
+.supplier-header , .managment-header, .leverancier-header, .contract-header{
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+.supplier-header h1, .managment-header h1, .leverancier-header h1, .contract-header h1{
+  margin: 0px auto;
+  font-weight: bold;
+}
+
+.iButton {
+  display: flex;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border: #F9971D thin solid;
+  border-radius: 10px;
+  color: #19398A;
+  background-color: white;
+}
+
+.iButton:hover{
+  background-color: #F9971D;
+  color: #19398A;
+}
+
+.iButton i{
+  display: flex;
+}
+
+.Button{
+  margin: 10px;
+  border: #F9971D thin solid;
+  border-radius: 10px;
+  color: #19398A;
+  background-color: white;
+}
+
+.add-something{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.button {
+  background-color: white !important;
+  color: #19398A !important;
+  border: #F9971D solid thin !important;
+  border-radius: 10px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.button:hover {
+  background-color: #F9971D !important;
+  color: #19398A !important;
+  font-weight: bold !important;
+}
+
+.btn-green{
+  background: #F9971D;
+}
+
+/*nav*/
+.navImg {
+  width: 170px;
+}
+
+.navbar {
+  border-bottom: solid #F9971D;
+}
+
+.navbar a {
+  color: #19398A;
+  font-size: 6mm;
+  font-weight: bold;
+}
+
+.navbar i {
+  font-size: 10mm;
+}
+
+#breadcrumb-nav{
+  border-bottom: solid thin #F9971D;
+}
+
+#breadcrumb{
+  margin: 0px;
+}
+
+.supplier-data div{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.supplier-data div h5{
+  margin-right: 10px;
+}
+  
+.add-something i{
+  height: 32px;
+  font-size: 32px;
+}
+
+.log-out{
+  margin: 0px;
+  align-self: flex-end;
+  max-width: 60px;
+  font-size: 32px;
+}
+
+.navbar-collapse{
+  margin: 0px;
+  align-self: flex-end;
+}
+
+.nav-end{
+  margin-top: 5px;
+}
+
+/*contracten.php*/
+#contract-table td {
+  border-bottom: #F9971D thin solid;
+}
+
+#contract-table thead {
+  border-bottom: #F9971D solid;
+}
+
+/*leverancier.php*/
+#contracten{
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  display: inline-block;
+}
+
+#contracten-icon{
+  height: 32px;
+  font-size: 32px;
+}
+
+#leverancier-edit{
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  display: flex;
+}
+
+#leverancier-edit button{
+  margin-right: 10px;
+}
+
+#edit-icon{
+  height: 32px;
+  font-size: 32px;
+}
+
+/*contract form*/
+#calendar-icon{
+  height: 16px;
+}
+
+#contracten-form div div div span{
+  height: 38px; 
+  display: inline-block;
+  font-weight: bold;
+}
+
+#contract-edit{
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  display: flex;
+}
+
+#contract-edit button{
+  margin-right: 10px;
+}
+
+#contracten-form .row{
+  border-bottom: #F9971D solid thin;
+  margin-bottom: 10px;
+}
+
+#downloads{
+  border: solid thin #F9971D;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#downloads i{
+  padding-left: 10px;
+}
+
+#formFile{
+  border: none;
+  background-color: white;
+}
+
+#bestandenOphaalInput{
+  border: none;
+  background-color: white;
+}
+
+/*wachtwoord veranderen*/
+#passwordComplications{
+  font-size: 19px;
+}
+
+/* rapportage pagina */
+.contractContainer div{
+  position: relative;
+  border: #F9971D solid thin;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
